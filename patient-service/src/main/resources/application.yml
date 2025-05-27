@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: patient-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/CORE_DB
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto:  update #create-drop
+    show-sql: true
+
+logging:
+  level:
+    root: info
