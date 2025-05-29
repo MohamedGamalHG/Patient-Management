@@ -1,3 +1,5 @@
+#Notes
+
 1- you should put the proto folder with this name because the plugin see this name and put it in the src/main folder
 
 2- second from Maven -> lifeCycle -> compile the you will see the target folder generated and the protobuf folder generated in generated-soruce folder
